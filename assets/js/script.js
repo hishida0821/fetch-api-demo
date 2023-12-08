@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-  const jsonUrl = "/fetch-api-demo/assets/json/list.json";
+  const jsonUrl = "/assets/json/list.json";
   const dataList = document.getElementById("dataList")
 
   fetch(jsonUrl)
